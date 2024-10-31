@@ -1,11 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Alvarez Dominguez Jose, Gomez Javier Mauricio,Franco , Roger Benjamin, Correa Angel"
+    />
+    <meta
+      name="keywords"
+      content="reloj, alarma, cronómetro, reloj digital, reloj en línea, cronómetro en línea, alarma en línea, herramienta de tiempo, temporizador, gestión del tiempo"
+    />
+    <meta
+      name="description"
+      content="Bienvenido a nuestra herramienta de tiempo en línea. Utiliza nuestro reloj digital, establece alarmas personalizadas y controla el tiempo con nuestro cronómetro. ¡Gestiona tu tiempo de manera efectiva y nunca llegues tarde!"
+    />
+    <meta property="og:title" content="In Time | Reloj en linea" />
+    <meta
+      property="og:description"
+      content="¡Gestiona tu tiempo de manera efectiva y nunca llegues tarde!"
+    />
+    <meta
+      property="og:image"
+      content="#urlimagenetlify
+    "
+    />
+    <meta property="og:url" content="#urlnetlify" />
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+    <link
+      rel="icon"
+      href="./assets/img/img-without-bg-claro.png"
+      type="image/svg+xml"
+    />
+    <!-- ICONOS -->
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>InTime | La Hora Exacta</title>
+  </head>
+  <body data-mdb-theme="dark">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/img/img-without-bg.png"
+              height="35"
+              alt="relojito Logo"
+              loading="lazy"
+          /></a>
+          <button
+            data-mdb-collapse-init
+            class="navbar-toggler"
+            type="button"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Reloj</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Alarma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cronometro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca de nosotros</a>
+              </li>
+            </ul>
+            <div class=" ms-auto pdt">
+              <i class="fas fa-moon" id="changeTheme"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="d-flex container-fluid">
+      <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center">Publicidad</div>
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8 text-center">
+        <h1 class="py-4 fuente">Relojito Online</h1>
+        <!-- Aca iria el reloj -->
+        <!-- <div> Reloj </div> -->
+        <div>
+          <label class="switch" >
+            <input class="cb" type="checkbox" name="am-pm" />
+            <span class="toggle">
+              <span class="left">AM</span>
+              <span class="right">PM</span>
+            </span>
+          </label>
+        </div>
+      </div>
+      <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center">Publicidad</div>
+    </main>
+    <footer></footer>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"
+    ></script>
+    <script src="js/navbar.js"></script>
+  </body>
 </html>
