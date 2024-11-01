@@ -1,9 +1,26 @@
+:root {
+  --turquesa: #33ab9f;
+}
+
 * {
   box-sizing: border-box;
 }
 
 main {
   height: 100vh;
+  padding-top: 10px;
+}
+
+h1 {
+  color: var(--turquesa);
+}
+
+p {
+  margin: 0;
+}
+
+.lobster-regular {
+  font-size: 3rem;
 }
 
 .pdt {
@@ -18,20 +35,26 @@ main {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  font-size: 3rem;
 }
 
-/* From Uiverse.io by r7chardgh */
-/* The switch - the box around the slider */
+/* Estilos publicidad */
+.publicidad {
+  height: 450px;
+  width: 90%;
+}
+
+/* Efectos del boton para cambiar de formato (AM y PM) */
 .switch {
   font-size: 17px;
   position: relative;
+  transform: translate(-50%, 0%);
   display: inline-block;
   width: 5em;
   height: 2.5em;
   user-select: none;
 }
 
-/* Efectos del boton para cambiar de formato (AM y PM) */
 .switch .cb {
   opacity: 0;
   width: 0;
@@ -135,6 +158,12 @@ main {
 .switch input:checked + .toggle > .right {
   transform: rotateX(10deg) rotateY(0deg);
   color: #373737;
+}
+
+@media (width < 768px) {
+  .ocult-sm {
+    display: none;
+  }
 }
 
 @media (width < 992px) {

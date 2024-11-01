@@ -26,20 +26,17 @@
     "
     />
     <meta property="og:url" content="#urlnetlify" />
-    <link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-/>
+
     <link
       rel="icon"
       href="./assets/img/img-without-bg-claro.png"
       type="image/svg+xml"
     />
     <!-- ICONOS -->
-    <!-- <link
+    <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -55,8 +52,9 @@
     <title>InTime | La Hora Exacta</title>
   </head>
   <body data-mdb-theme="dark">
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <header id="header">
+
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
@@ -91,36 +89,54 @@
                 <a class="nav-link" href="#">Acerca de nosotros</a>
               </li>
             </ul>
-            <div class=" ms-auto pdt">
+            <div class="ms-auto pdt">
               <i class="fas fa-moon" id="changeTheme"></i>
             </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
-    <main class="d-flex container-fluid">
-      <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center">Publicidad</div>
-      <div class="col-12 col-sm-12 col-md-8 col-lg-8 text-center">
-        <h1 class="py-4 fuente">Relojito Online</h1>
-        <!-- Aca iria el reloj -->
-        <!-- <div> Reloj </div> -->
-        <div>
-          <label class="switch" >
-            <input class="cb" type="checkbox" name="am-pm" />
-            <span class="toggle">
-              <span class="left">AM</span>
-              <span class="right">PM</span>
-            </span>
-          </label>
+    <main class="container-fluid">
+      <h1 class="py-4 fuente text-center">Relojito Online</h1>
+      <div class="row">
+        <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center ocult-sm">
+          <a href="./pages/404.html">
+            <img
+              src="./assets/img/colgate-publicidad.jpg"
+              class="publicidad ocult-sm"
+              alt="publicidad colgate"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-sm-12 col-md-8 col-lg-8 text-center d-flex align-items-center justify-content-center"
+          id="contenedor-reloj"
+        >
+          <!-- RELOJ -->
+          <!-- <div class="d-flex flex-column align-items-center">
+            <span class="fuente" id="fecha"></span>
+            <span class="fuente" id="hora"></span>
+          </div> -->
+        </div>
+        <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center">
+          <a href="./pages/404.html">
+            <img
+              src="./assets/img/colgate-publicidad.jpg"
+              class="publicidad ocult-sm"
+              alt="publicidad colgate"
+            />
+          </a>
         </div>
       </div>
-      <div class="col-0 col-sm-0 col-md-2 col-lg-2 text-center">Publicidad</div>
     </main>
     <footer></footer>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"
     ></script>
-    <script src="js/navbar.js"></script>
+
+    <script src="js/reloj.js"></script>
+    <script type="module" src="js/navbar.js"></script>
+    <script type="module" src="js/cambiarTema.js"></script>
   </body>
 </html>
