@@ -1,5 +1,5 @@
 :root {
-  --turquesa: #33ab9f;
+  --fuccia: #aa56ce;
 }
 
 * {
@@ -9,18 +9,15 @@
 main {
   height: 100vh;
   padding-top: 10px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1760%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1761%26quot%3b)'%3e%3c/rect%3e%3cpath d='M356.92991159211834 336.24405969399845L287.06555766962543 422.51935169604343 373.3408496716704 492.3837056185364 443.2052035941633 406.10841361649136z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M945.2420360678572 176.7908468518154L1023.8476642022869 247.5676723286279 1094.6244896790995 168.96204419419817 1016.0188615446697 98.18521871738564z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M435.0149481413812 350.35049318745723L396.3871229243288 238.1671430111335 284.2037727480051 276.79496822818584 322.8315979650574 388.9783184045096z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M294.76473490606986 572.1466993127511L297.698771211391 412.76090478317684 174.65838450728754 478.18263886902434z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1136.3443499293612 328.1604233268599L1083.4462879148011 174.53329621620446 929.8191608041457 227.43135823076454 982.7172228187057 381.05848534142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M824.0753872720873 573.2207038890549L797.8720203743575 385.475972066629 665.530777287389 485.20225179045246z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M701.152%2c566.123C724.608%2c564.759%2c745.112%2c552.772%2c758.065%2c533.169C772.771%2c510.914%2c783.681%2c483.427%2c771.463%2c459.715C758.461%2c434.482%2c729.533%2c423.262%2c701.152%2c422.716C671.657%2c422.149%2c641.013%2c431.526%2c625.998%2c456.919C610.761%2c482.687%2c614.516%2c515.871%2c631.487%2c540.531C646.519%2c562.373%2c674.682%2c567.663%2c701.152%2c566.123' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1760'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='-39.29%25' x2='15.28%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1761'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 0.79)' offset='0.15'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 69%2c 158%2c 0)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
 
 h1 {
-  color: var(--turquesa);
+  color: var(--fuccia);
 }
 
 p {
   margin: 0;
-}
-
-.lobster-regular {
-  font-size: 3rem;
 }
 
 .pdt {
@@ -31,7 +28,7 @@ p {
 }
 
 .fuente {
-  font-family: "Playfair Display", serif;
+  font-family: "Lobster", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -43,122 +40,91 @@ p {
   height: 450px;
   width: 90%;
 }
+.lfk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-/* Efectos del boton para cambiar de formato (AM y PM) */
-.switch {
-  font-size: 17px;
+/* estilos del boton cambio de tema */
+.toggle-switch {
   position: relative;
-  transform: translate(-50%, 0%);
-  display: inline-block;
-  width: 5em;
-  height: 2.5em;
-  user-select: none;
+  width: 90px;
+  height: 50px;
+  --light: #d8dbe0;
+  --dark: #28292c;
+  --link: rgb(27, 129, 112);
+  --link-hover: rgb(24, 94, 82);
 }
 
-.switch .cb {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.toggle {
+.switch-label {
   position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark);
+  border-radius: 25px;
   cursor: pointer;
+  border: 3px solid var(--dark);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #373737;
-  border-radius: 0.1em;
-  transition: 0.4s;
-  text-transform: uppercase;
-  font-weight: 700;
-  overflow: hidden;
-  box-shadow: -0.3em 0 0 0 #373737, -0.3em 0.3em 0 0 #373737,
-    0.3em 0 0 0 #373737, 0.3em 0.3em 0 0 #373737, 0 0.3em 0 0 #373737;
+  border-radius: 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.toggle > .left {
-  position: absolute;
-  display: flex;
-  width: 50%;
-  height: 88%;
-  background-color: #f3f3f3;
-  color: #373737;
-  left: 0;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  transform-origin: right;
-  transform: rotateX(10deg);
-  transform-style: preserve-3d;
-  transition: all 150ms;
+.checkbox:checked ~ .slider {
+  background-color: var(--light);
 }
 
-.left::before {
-  position: absolute;
+.slider::before {
   content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgb(206, 206, 206);
-  transform-origin: center left;
-  transform: rotateY(90deg);
-}
-
-.left::after {
   position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgb(112, 112, 112);
-  transform-origin: center bottom;
-  transform: rotateX(90deg);
+  top: 10px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 12px -4px 0px 0px var(--light);
+  box-shadow: inset 12px -4px 0px 0px var(--light);
+  background-color: var(--dark);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.toggle > .right {
-  position: absolute;
-  display: flex;
-  width: 50%;
-  height: 88%;
-  background-color: #f3f3f3;
-  color: rgb(206, 206, 206);
-  right: 1px;
-  bottom: 0;
-  align-items: center;
-  justify-content: center;
-  transform-origin: left;
-  transform: rotateX(10deg) rotateY(-45deg);
-  transform-style: preserve-3d;
-  transition: all 150ms;
+.checkbox:checked ~ .slider::before {
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(40px);
+  background-color: var(--dark);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
-.right::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgb(206, 206, 206);
-  transform-origin: center right;
-  transform: rotateY(-90deg);
+/* acerca de nosotros */
+.img-nos {
+  max-width: 45%;
+  height: auto;
+  border-radius: 74% 26% 30% 70% / 43% 60% 40% 57%;
 }
 
-.right::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgb(112, 112, 112);
-  transform-origin: center bottom;
-  transform: rotateX(90deg);
+.link-prof {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  display: block;
 }
 
-.switch input:checked + .toggle > .left {
-  transform: rotateX(10deg) rotateY(45deg);
-  color: rgb(206, 206, 206);
-}
-
-.switch input:checked + .toggle > .right {
-  transform: rotateX(10deg) rotateY(0deg);
-  color: #373737;
-}
+/* Media queries */
 
 @media (width < 768px) {
   .ocult-sm {

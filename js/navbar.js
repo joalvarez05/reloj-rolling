@@ -1,4 +1,4 @@
-export const navbar = () => {
+const crearNavbar = () => {
   let header = document.querySelector("header");
   let nodo1 = document.createElement("nav");
   nodo1.classList = "navbar navbar-expand-lg navbar-light bg-body-tertiary";
@@ -33,17 +33,46 @@ export const navbar = () => {
                   <a class="nav-link" href="#" target="_blank">Cronometro</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./nosotros.js">Acerca de nosotros</a>
+                  <a class="nav-link" href="../pages/nosotros.html">Acerca de nosotros</a>
                 </li>
               </ul>
-              <div class="ms-auto pdt">
-                <i class="fas fa-moon" id="changeTheme"></i>
+              <div class="toggle-switch ms-auto">
+               <label class="switch-label" >
+               <input type="checkbox" class="checkbox"  id="changeTheme">
+              <span class="slider" ></span>
+              </label>
+              </div>  
               </div>
-            </div>
-            </div>`;
+              </div>`;
 
   nodo1.innerHTML = nodo2;
-
   header.append(nodo1);
 };
-navbar();
+
+const cambiarTema = () => {
+  let cambiarTemas = document.getElementById("changeTheme");
+
+  const temaOscuro = () => {
+    document.querySelector("body").setAttribute("data-mdb-theme", "dark");
+  };
+
+  const temaClaro = () => {
+    document.querySelector("body").setAttribute("data-mdb-theme", "light");
+  };
+
+  const changeTheme = () => {
+    const temaActual = document
+      .querySelector("body")
+      .getAttribute("data-mdb-theme");
+
+    if (temaActual === "dark") {
+      temaClaro();
+    } else {
+      temaOscuro();
+    }
+  };
+
+  cambiarTemas.addEventListener("click", changeTheme);
+};
+
+export { cambiarTema, crearNavbar };
