@@ -4,3 +4,8 @@ import { crearFooter } from "./footer.js";
 
 crearNavbar();
 cambiarTema();
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   crearNavbar();
+//   cambiarTema();
+// });
