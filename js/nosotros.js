@@ -1,26 +1,38 @@
 import { crearNavbar, cambiarTema } from "./navbar.js";
 
+// const generarId = () => {
+//   let identificador = crypto.randomUUID();
+//   return identificador;
+// };
+const generarId = () => {
+  let randomId = crypto.randomUUID();
+  return randomId;
+};
+
 let data = [
   {
-    id: 1,
+    id: generarId(),
     email: "javiermauriciogomez97@gmail.com",
     first_name: "Javier",
     last_name: "Gomez",
-    avatar: "https://i.ibb.co/ZJh0Bth/Whats-App-Image-2023-03-28-at-23-35-31.jpg",
+    avatar:
+      "https://i.ibb.co/ZJh0Bth/Whats-App-Image-2023-03-28-at-23-35-31.jpg",
     description:
       "Estudiante de programación en Rolling Code de día y empleado de Call Center de noche. Github:",
     github: "https://github.com/JavierMauricioGomez",
   },
   {
-    id: 2,
+    id: generarId(),
     email: "joalvarez05@gmail.com",
     first_name: "Jose",
     last_name: "Alvarez Dominguez",
     avatar: "https://i.ibb.co/CsPfW1V/foto-perfil.jpg",
-    description:"Apasionado por los viajes y el buen café. Agradeceras haberlo conocido. Acá su GitHub para contactarte con él:",
+    description:
+      "Apasionado por los viajes y el buen café. Agradeceras haberlo conocido. Acá su GitHub para contactarte con él:",
     github: "https://github.com/joalvarez05",
   },
 ];
+
 
 const crearNosotros = () => {
   data.map((alumno) => {
@@ -34,7 +46,7 @@ const crearNosotros = () => {
                   class="row"
                   data-aos="flip-left"
                   data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000"
+                  data-aos-duration="1200"
                 >
                   <div
                     class="col-12 col-md-6 col-lg-6 d-flex justify-content-center py-3"
