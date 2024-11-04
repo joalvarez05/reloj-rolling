@@ -101,11 +101,11 @@ p {
 }
 
 /* Media queries */
-@media (width < 768px) {
+/* @media (width < 768px) {
   .ocult-sm {
     display: none;
   }
-}
+} */
 
 @media (width < 992px) {
   .pdt {
