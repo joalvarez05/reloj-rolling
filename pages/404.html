@@ -3,7 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="author"
+      content="Alvarez Dominguez Jose, Gomez Javier Mauricio,Franco , Roger Benjamin, Correa Angel"
+    />
+    <meta
+      name="keywords"
+      content="reloj, alarma, cronómetro, reloj digital, reloj en línea, cronómetro en línea, alarma en línea, herramienta de tiempo, temporizador, gestión del tiempo"
+    />
+    <meta
+      name="description"
+      content="Bienvenido a nuestra herramienta de tiempo en línea. Utiliza nuestro reloj digital, establece alarmas personalizadas y controla el tiempo con nuestro cronómetro. ¡Gestiona tu tiempo de manera efectiva y nunca llegues tarde!"
+    />
+    <meta property="og:title" content="In Time | Reloj en linea" />
+    <meta
+      property="og:description"
+      content="¡Gestiona tu tiempo de manera efectiva y nunca llegues tarde!"
+    />
+    <meta
+      property="og:image"
+      content="#urlimagenetlify
+  "
+    />
+    <meta property="og:url" content="#urlnetlify" />
     <link
       rel="icon"
       href="./assets/img/img-without-bg-claro.png"
@@ -11,9 +33,10 @@
     />
     <!-- ICONOS -->
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,15 +44,34 @@
       rel="stylesheet"
     />
 
+    <!-- MDB -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/404.css" />
+
     <title>InTime | La Hora Exacta</title>
   </head>
-  <body>
-    <main></main>
+  <body data-mdb-theme="dark">
+    <main class="container d-flex justify-content-center vh-100">
+      <div class="error_container">
+        <div class="error_code">
+          <p class="myBounce">4</p>
+          <p class="mx-3 bi bi-alarm"></p>
+
+          <p>4</p>
+        </div>
+        <div class="error_title">Página no encontrada</div>
+        <div class="error_description">
+          Parece que no encontramos más tiempo. Puede que se te hayan acabado
+          los minutos.
+        </div>
+        <a href="../../index.html" class="btn btn-lg color"
+          >Volver al inicio
+        </a>
+      </div>
+    </main>
     <script
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"

@@ -1,29 +1,28 @@
-let meses = [
-  "Enero",
-  "Febrero",
-  "Marzo",
-  "Abril",
-  "Mayo",
-  "Junio",
-  "Julio",
-  "Agosto",
-  "Septiembre",
-  "Octubre",
-  "Noviembre",
-  "Diciembre",
-];
-
-let dias = [
-  "Domingo",
-  "Lunes",
-  "Martes",
-  "Miercoles",
-  "Jueves",
-  "Viernes",
-  "Sabado",
-];
-
 const reloj24 = setInterval(() => {
+  let meses = [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio",
+    "Julio",
+    "Agosto",
+    "Septiembre",
+    "Octubre",
+    "Noviembre",
+    "Diciembre",
+  ];
+
+  let dias = [
+    "Domingo",
+    "Lunes",
+    "Martes",
+    "Miercoles",
+    "Jueves",
+    "Viernes",
+    "Sabado",
+  ];
   let contenedorReloj = document.getElementById("contenedor-reloj");
   contenedorReloj.innerHTML = "";
   let fecha = new Date();
@@ -48,4 +47,4 @@ const reloj24 = setInterval(() => {
   contenedorReloj.append(nodo1);
 }, 1000);
 
-// let formatearHora = document.getElementById("formatearHora");
+export { reloj24 };
