@@ -10,15 +10,15 @@ const crearNavbar = () => {
                 alt="relojito Logo"
                 loading="lazy"
             /></a>
-            <button
-              data-mdb-collapse-init
-              class="navbar-toggler"
-              type="button"
-              data-mdb-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+           <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,9 +37,9 @@ const crearNavbar = () => {
                 </li>
               </ul>
               <div class="toggle-switch ms-auto">
-               <label class="switch-label" >
+               <label class="switch-label">
                <input type="checkbox" class="checkbox"  id="changeTheme">
-              <span class="slider" ></span>
+              <span class="slider"></span>
               </label>
               </div>  
               </div>
