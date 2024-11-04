@@ -13,6 +13,12 @@ main {
   max-width: 45%;
   height: auto;
   border-radius: 74% 26% 30% 70% / 43% 60% 40% 57%;
+  cursor: zoom-in;
+  transition-duration: 0.5s;
+}
+
+.img-nos:hover {
+  transform: scale(1.1);
 }
 
 .link-prof {
