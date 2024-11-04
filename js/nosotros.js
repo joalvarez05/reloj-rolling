@@ -1,4 +1,5 @@
 import { crearNavbar, cambiarTema } from "./navbar.js";
+import { crearFooter } from "./footer.js";
 
 // const generarId = () => {
 //   let identificador = crypto.randomUUID();
