@@ -1,9 +1,6 @@
 import { crearNavbar, cambiarTema } from "./navbar.js";
+import { crearFooter } from "./footer.js";
 
-// const generarId = () => {
-//   let identificador = crypto.randomUUID();
-//   return identificador;
-// };
 const generarId = () => {
   let randomId = crypto.randomUUID();
   return randomId;
@@ -33,15 +30,22 @@ let data = [
   },
 ];
 
-
 const crearNosotros = () => {
+  let sectionTarjetas = document.querySelector("#section-tarjetas");
+
+  let section = document.createElement("section");
+  section.classList = "container py-4 h3 fw-bold";
+  let seccionTitulo = `<h2 class="text-center lead lh-base mt-5 "> Somos un equipo apasionado por la tecnología y el desarrollo web, formado en <a href="https://web.rollingcodeschool.com/" class="text-danger" >Rolling Code school</a>
+, donde aprendimos desde los fundamentos hasta técnicas avanzadas de programación. Nos especializamos en crear soluciones digitales a través de diversas tecnologías modernas, y seguimos en constante aprendizaje para mantenernos actualizados en este campo tan dinámico. </h2>`;
+  section.innerHTML = seccionTitulo;
+  sectionTarjetas.append(section);
+
   data.map((alumno) => {
     let sectionTarjetas = document.querySelector("#section-tarjetas");
 
     let seccion = document.createElement("section");
     seccion.classList = "container";
-    let articulos = `
-      <article class="container">
+    let articulos = `<article class="container">
                 <div
                   class="row"
                   data-aos="flip-left"
@@ -59,7 +63,7 @@ const crearNosotros = () => {
                   </div>
                   <div class="col-12 col-md-6 col-lg-6 py-3">
                   <h3 class="text-center fw-bold">${alumno.first_name} ${alumno.last_name}</h3>
-                    <p class="lead">
+                    <p class="lead text-center">
                       ${alumno.description} 
                     </p>
              
@@ -79,3 +83,4 @@ const crearNosotros = () => {
 crearNavbar();
 cambiarTema();
 crearNosotros();
+crearFooter();

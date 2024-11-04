@@ -27,10 +27,10 @@ const crearNavbar = () => {
                   <a class="nav-link" aria-current="page" href="../index.html">Reloj</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" target="_blank">Alarma</a>
+                  <a class="nav-link" href="../pages/404.html" target="_blank">Alarma</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" target="_blank">Cronometro</a>
+                  <a class="nav-link" href="../pages/404.html" target="_blank">Cronometro</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../pages/nosotros.html">Acerca de nosotros</a>
